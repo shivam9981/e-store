@@ -1,0 +1,44 @@
+.container-home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-home {
+    margin-top: 3rem;
+    width: 50vw;
+    height: 6vh;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    outline: none;
+}
+
+.checkbox-div{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.lab-check{
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:600px) {
+    .checkbox-div{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .inp-home{
+        width: 15rem;
+    }
+}
